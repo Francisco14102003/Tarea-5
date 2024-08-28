@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizzas Clásicas Loui´s</title>
+    <style>
+        body {
+            background-image: url('https://www.shutterstock.com/image-photo/creative-layout-hot-delicious-pizza-600nw-1377288449.jpg');
+            background-size: middle;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        h2 {
+            background-color: darkgoldenrod;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .pizza {
+            background-color: darkgoldenrod;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+            cursor: pointer;
+        }
+        .ingredients {
+            display: none;
+            list-style-type: none;
+            padding: 0;
+            margin-top: 10px;
+        }
+        .pizza:hover .ingredients {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Pizzas Clásicas</h2>
+
+<div class="pizza">
+    <p>Pizza Margarita</p>
+    <ul class="ingredients">
+        <li>Queso mozzarella</li>
+        <li>Tomate</li>
+    </ul>
+</div>
+
+<div class="pizza">
+    <p>Pizza Pepperoni</p>
+    <ul class="ingredients">
+        <li>Queso mozzarella</li>
+        <li>Pepperoni</li>
+    </ul>
+</div>
+
+</body>
+</html>
